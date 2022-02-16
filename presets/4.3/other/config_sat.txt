@@ -7,7 +7,7 @@
 #$ DESCRIPTION: Bienvenue dans l'expérience RevolutionFPV ! 
 #$ DESCRIPTION: Configuration gps by Revolution FPV
 #$ DESCRIPTION: Regarder les option et faites votre choix.
-#$ INCLUDE: misc/fr/configPort.txt
+#$ INCLUDE: misc/warnings/fr/configPort.txt
 
 #$ OPTION BEGIN (UNCHECKED): GPS default
 

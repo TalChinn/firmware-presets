@@ -128,6 +128,7 @@
       "4.3"
     ],
     "category": [
+      "BNF",
       "FILTERS",
       "LEDS",
       "MODES",
@@ -140,22 +141,30 @@
       "VTX"
     ],
     "author": [
-      "Betaflight"
+      "Betaflight",
+      "TalChin",
+      "TalChin, RevolutionFPV"
     ],
     "keywords": [
+      "150Hz",
+      "50Hz",
       "actual",
       "adjustments",
       "aux",
       "basic",
       "blackbox",
+      "cfv2",
       "clear",
+      "crossfire",
+      "CRSF",
       "default",
       "defaults",
       "feedforward",
       "ff",
       "filter",
       "filters",
-      "GPS",
+      "freestyle",
+      "gps",
       "leds",
       "log",
       "logging",
@@ -169,12 +178,34 @@
       "rc_link",
       "rc_smoothing",
       "reset",
+      "revolutionfpv",
+      "sat",
+      "Satelite",
+      "sbando",
       "switch",
+      "TBS",
+      "tracer",
       "tune",
       "vtx"
     ]
   },
   "presets": [
+    {
+      "fullPath": "presets/4.3/bnf/sBando.txt",
+      "hash": "d9abb30fae8690a5b47817142b36e56527986e1cfe50078c19ae517d6cd94b06",
+      "title": "Sbando",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "BNF",
+      "status": "COMMUNITY",
+      "keywords": [
+        "sbando",
+        "revolutionfpv"
+      ],
+      "author": "TalChin, RevolutionFPV",
+      "priority": 0
+    },
     {
       "fullPath": "presets/4.3/filters/defaults.txt",
       "hash": "cd9af0626bc1e8be0738e39995b8d77b0494ee78b83815d4dab261d66c5ae5fd",
@@ -249,6 +280,39 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.3/osd/osd_default.txt",
+      "hash": "0f87bd032a6fb6aabf093c598fa7d9dd291ae9b3fa33dda51404416cad8c5da0",
+      "title": "Revolution FPV Configuration de l'Osd",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "osd"
+      ],
+      "author": "TalChin",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/other/config_sat.txt",
+      "hash": "cda8fa6b463bb93a37ae8f15ac7c47907c6711dfea61eaf1c0ac39f5654758b8",
+      "title": "RevolutionFPV Config Gps",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "BNF",
+      "status": "COMMUNITY",
+      "keywords": [
+        "Satelite",
+        "revolutionfpv",
+        "sat",
+        "gps"
+      ],
+      "author": "TalChin, RevolutionFPV",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.3/other/reset_blackbox.txt",
       "hash": "30dc088a9a24dbbbea774d4d23eb29be85da9f4a78844e23e8b4ae7ff49bd090",
       "title": "Reset 4.3 Blackbox settings",
@@ -300,6 +364,29 @@
       ],
       "author": "Betaflight",
       "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/rc_link/Crossfire.txt",
+      "hash": "2e795629408b0da9a9241ec3920a3fb81b700e6d97808e34f344be63602d3650",
+      "title": "TBS Crossfire",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RC_LINK",
+      "status": "COMMUNITY",
+      "keywords": [
+        "rc link",
+        "tracer",
+        "TBS",
+        "cfv2",
+        "crossfire",
+        "freestyle",
+        "150Hz",
+        "50Hz",
+        "CRSF"
+      ],
+      "author": "TalChin",
+      "priority": 10000000000
     },
     {
       "fullPath": "presets/4.3/rc_link/defaults.txt",
