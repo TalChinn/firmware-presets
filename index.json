@@ -155,6 +155,7 @@
       "blackbox",
       "cfv2",
       "clear",
+      "codeRed",
       "crossfire",
       "CRSF",
       "default",
@@ -190,6 +191,22 @@
     ]
   },
   "presets": [
+    {
+      "fullPath": "presets/4.3/bnf/codeRed.txt",
+      "hash": "22f859b9fdaaf7aea6b73e716fb7ca29c6cc86e8258e876a86246f0acc800d58",
+      "title": "CodeRed",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "BNF",
+      "status": "COMMUNITY",
+      "keywords": [
+        "codeRed",
+        "revolutionfpv"
+      ],
+      "author": "TalChin, RevolutionFPV",
+      "priority": 0
+    },
     {
       "fullPath": "presets/4.3/bnf/sBando.txt",
       "hash": "d9abb30fae8690a5b47817142b36e56527986e1cfe50078c19ae517d6cd94b06",
