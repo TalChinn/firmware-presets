@@ -8,7 +8,7 @@
 #$ INCLUDE: presets/4.3/osd/defaults.txt
  
 set osd_profile = 1
- 
+
 #$ OPTION BEGIN (UNCHECKED): Osd avec Sat
 
 # Osd avec Sat
@@ -68,15 +68,15 @@ set osd_mah_drawn_pos = 6508
 set osd_motor_diag_pos = 234
 set osd_craft_name_pos = 234
 set osd_display_name_pos = 234
-set osd_gps_speed_pos = 4405
-set osd_gps_lon_pos = 36864
-set osd_gps_lat_pos = 36881
-set osd_gps_sats_pos = 4141
-set osd_home_dir_pos = 174
-set osd_home_dist_pos = 141
+osd_gps_speed_pos = 6453
+set osd_gps_lon_pos = 38912
+set osd_gps_lat_pos = 38929
+set osd_gps_sats_pos = 6189
+set osd_home_dir_pos = 2222
+set osd_home_dist_pos = 2188
 set osd_flight_dist_pos = 424
 set osd_compass_bar_pos = 234
-set osd_altitude_pos = 20773
+set osd_altitude_pos = 22821
 set osd_pid_roll_pos = 234
 set osd_pid_pitch_pos = 234
 set osd_pid_yaw_pos = 234
