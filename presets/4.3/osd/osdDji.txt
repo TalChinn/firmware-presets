@@ -10,13 +10,13 @@
 #$ OPTION BEGIN (UNCHECKED): Osd avec Sat + rssi
 
 # Osd avec Sat + rssi
-set osd_profile = 1
+set osd_profile = 2
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Osd sans Sat + rssi
 
 # Osd sans Sat + rssi
-set osd_profile = 2
+set osd_profile = 1
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Osd avec Sat + lq
@@ -24,7 +24,7 @@ set osd_profile = 2
 # Osd avec Sat + lq
 #$ INCLUDE: misc/warnings/fr/configPort.txt
 set rssi_channel = 8
-set osd_profile = 1
+set osd_profile = 2
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Osd sans Sat + lq
@@ -32,5 +32,5 @@ set osd_profile = 1
 # Osd sans Sat + lq
 #$ INCLUDE: misc/warnings/fr/configPort.txt
 set rssi_channel = 8
-set osd_profile = 2
+set osd_profile = 1
 #$ OPTION END
