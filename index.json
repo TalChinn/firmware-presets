@@ -313,12 +313,12 @@
     },
     {
       "fullPath": "presets/4.3/other/config_sat.txt",
-      "hash": "cda8fa6b463bb93a37ae8f15ac7c47907c6711dfea61eaf1c0ac39f5654758b8",
+      "hash": "ce01e91b44ef82e84837bfe9518b3e995bc97b275d19c69b23f14b74201d8840",
       "title": "RevolutionFPV Config Gps",
       "firmware_version": [
         "4.3"
       ],
-      "category": "BNF",
+      "category": "OTHER",
       "status": "COMMUNITY",
       "keywords": [
         "Satelite",
