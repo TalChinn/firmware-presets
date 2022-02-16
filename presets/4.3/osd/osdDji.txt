@@ -1,0 +1,36 @@
+#$ TITLE: Revolution FPV Configuration de l'Osd DJI + LQ
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OSD
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: osd
+#$ AUTHOR: TalChin
+#$ DESCRIPTION: Configuration de l'osd pour DJI avec le retour LQ via l'AUX4.  
+#$ INCLUDE: presets/4.3/osd/defaults.txt
+
+#$ OPTION BEGIN (UNCHECKED): Osd avec Sat + rssi
+
+# Osd avec Sat + rssi
+set osd_profile = 1
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Osd sans Sat + rssi
+
+# Osd sans Sat + rssi
+set osd_profile = 2
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Osd avec Sat + lq
+
+# Osd avec Sat + lq
+#$ INCLUDE: misc/warnings/fr/configPort.txt
+set rssi_channel = 8
+set osd_profile = 1
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Osd sans Sat + lq
+
+# Osd sans Sat + lq
+#$ INCLUDE: misc/warnings/fr/configPort.txt
+set rssi_channel = 8
+set osd_profile = 2
+#$ OPTION END
